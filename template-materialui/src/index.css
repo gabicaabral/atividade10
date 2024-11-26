@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f5f5f5; /* Alteração: cor de fundo clara */
+  color: #333; /* Alteração: cor do texto */
+  line-height: 1.6; /* Alteração: espaçamento entre linhas */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #272822; /* Alteração: fundo escuro para blocos de código */
+  color: #f8f8f2; /* Alteração: texto claro para contraste */
+  padding: 0.2em 0.4em; /* Alteração: espaçamento interno para destaque */
+  border-radius: 4px; /* Alteração: bordas arredondadas */
+  display: inline-block; /* Exibição inline com estilização */
+}
+
+h1 {
+  font-size: 2rem; /* Novo estilo: tamanho da fonte */
+  color: #4caf50; /* Novo estilo: cor verde */
+  text-align: center; /* Novo estilo: alinhamento centralizado */
+  margin: 20px 0; /* Novo estilo: margem superior e inferior */
+}
+
+p {
+  font-size: 1rem; /* Novo estilo: tamanho da fonte */
+  margin: 10px 20px; /* Novo estilo: margem interna para parágrafos */
+}
+
+a {
+  color: #007bff; /* Novo estilo: cor azul para links */
+  text-decoration: none; /* Novo estilo: remove sublinhado dos links */
+}
+
+a:hover {
+  text-decoration: underline; /* Novo estilo: sublinhado ao passar o mouse */
+}
+
